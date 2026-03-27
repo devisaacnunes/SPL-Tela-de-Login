@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Spl</title>
+</head>
+<body>
+
+<div class="container">
+<div class="card">
+
+    <!-- HEADER -->
+    <header class="card-header">
+        <h1>+</h1>
+        <h1 class="title-spl">SPL</h1>
+        <p>Saúde em Primeiro Lugar</p>
+    </header>
+
+    <!-- LOGIN -->
+    <form class="card-form" id="login-form">
+        <h2>Entrar</h2>
+
+        <label>E-mail</label>
+        <input type="email" id="email" required>
+
+        <label>Senha</label>
+        <input type="password" id="senha" required>
+
+        <!-- mensagem de erro -->
+        <p id="erro" class="erro"></p>
+
+        <button>Entrar</button>
+
+        <p class="switch">
+            Não tem conta?
+            <a href="#" id="show-register">Criar Conta</a>
+        </p>
+    </form>
+
+    <!-- CADASTRO -->
+    <form class="card-form hidden" id="register-form">
+        <h2>Criar Conta</h2>
+
+        <label>Nome Completo</label>
+        <input type="text" id="nome">
+        <p class="erro" id="erro-nome"></p>
+
+        <label>CPF</label>
+        <input type="text" id="cpf" placeholder="000.000.000-00">
+        <p class="erro" id="erro-cpf"></p>
+
+        <label>Telefone</label>
+        <input type="text" id="telefone" placeholder="(xx)xxxxx.xxxx">
+        <p class="erro" id="erro-telefone"></p>
+
+        <label>E-mail</label>
+        <input type="email" id="emailCad" placeholder="exemplo@gmail.com">
+        <p class="erro" id="erro-email"></p>
+
+        <label>Senha</label>
+        <input type="password" id="senhaCad">
+        <p class="erro" id="erro-senha"></p>
+
+        <label>Confirmar Senha</label>
+        <input type="password" id="confirmar">
+        <p class="erro" id="erro-confirmar"></p>
+
+
+        <button>Cadastrar</button>
+
+        <p class="switch">
+            Já tem conta?
+            <a href="#" id="show-login">Entrar</a>
+        </p>
+    </form>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
