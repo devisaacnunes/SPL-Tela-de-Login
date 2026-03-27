@@ -32,7 +32,7 @@ body{
 
 .card-header{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .card-header h1:first-child {
@@ -49,6 +49,7 @@ body{
 
 .card-header h1 {
     font-size: 24px;
+    margin-bottom: 5px;
 }
 
 .card-header p {
@@ -59,6 +60,7 @@ body{
 .card-form{
     display: flex;
     flex-direction: column;
+    gap: 9px;
 }
 
 .card-form input {
@@ -82,6 +84,7 @@ body{
 }
 
 .card-form button {
+    margin-top: 10px;
     padding: 12px;
     background-color: #1E6F5C;
     color: white;
